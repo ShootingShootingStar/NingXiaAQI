@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3503EEE41FF4CE6F00F41605 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503EEE31FF4CE6F00F41605 /* HomeViewController.swift */; };
+		3503EEE61FF4CF1700F41605 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503EEE51FF4CF1700F41605 /* HomeCollectionViewCell.swift */; };
+		3503EEE81FF4CF5C00F41605 /* HomeCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503EEE71FF4CF5C00F41605 /* HomeCollectionLayout.swift */; };
+		3503EEEB1FF4E8B900F41605 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503EEEA1FF4E8B900F41605 /* UILabel+Extension.swift */; };
+		3503EEED1FF4EA1500F41605 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503EEEC1FF4EA1500F41605 /* UIColor+Extension.swift */; };
+		3503EEEF1FF4F1A600F41605 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503EEEE1FF4F1A600F41605 /* String+Extension.swift */; };
+		351B2AE31FFDF18900A5F2BA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B2AE21FFDF18900A5F2BA /* MapViewController.swift */; };
 		3533C5FD1FF1243500207337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533C5FC1FF1243500207337 /* AppDelegate.swift */; };
 		3533C5FF1FF1243500207337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533C5FE1FF1243500207337 /* ViewController.swift */; };
 		3533C6021FF1243500207337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3533C6001FF1243500207337 /* Main.storyboard */; };
 		3533C6041FF1243500207337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3533C6031FF1243500207337 /* Assets.xcassets */; };
 		3533C6071FF1243500207337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3533C6051FF1243500207337 /* LaunchScreen.storyboard */; };
+		3533C60F1FF1244200207337 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3533C60E1FF1244200207337 /* Podfile */; };
+		3533C6171FF1326E00207337 /* NewFeatureCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533C6161FF1326E00207337 /* NewFeatureCollectionViewController.swift */; };
+		3533C6191FF1334400207337 /* NewFeatureFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533C6181FF1334400207337 /* NewFeatureFlowLayout.swift */; };
+		3533C61B1FF133A700207337 /* NewFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533C61A1FF133A700207337 /* NewFeatureCell.swift */; };
+		3533C61D1FF137A600207337 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533C61C1FF137A600207337 /* Tool.swift */; };
+		3533C61F1FF13ECB00207337 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533C61E1FF13ECB00207337 /* MainViewController.swift */; };
+		3533C6221FF13FF900207337 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533C6211FF13FF900207337 /* BaseNavigationViewController.swift */; };
+		3546F5FE1FFD196C00743D7A /* CityHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3546F5FD1FFD196C00743D7A /* CityHeaderView.swift */; };
+		3546F6001FFD2B7C00743D7A /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3546F5FF1FFD2B7C00743D7A /* CityTableViewCell.swift */; };
+		356094DA1FFB3A5B0015AF54 /* CityAQIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356094D91FFB3A5B0015AF54 /* CityAQIView.swift */; };
+		356094DC1FFB3B500015AF54 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356094DB1FFB3B500015AF54 /* UIView+Extension.swift */; };
+		356094DE1FFB6E060015AF54 /* PollutantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356094DD1FFB6E060015AF54 /* PollutantView.swift */; };
+		357A4B582000ECDB00DA572C /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A4B572000ECDB00DA572C /* MapAnnotation.swift */; };
+		357A4B5A2000EFA500DA572C /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A4B592000EFA500DA572C /* MapAnnotationView.swift */; };
+		357A4B5C2000F3D600DA572C /* AirStationData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 357A4B5B2000F3D600DA572C /* AirStationData.plist */; };
+		357A4B5E20010C3300DA572C /* UIimage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A4B5D20010C3300DA572C /* UIimage+Extension.swift */; };
+		35B112F41FFC9AF30062B805 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B112F31FFC9AF30062B805 /* SettingViewController.swift */; };
+		35B112F71FFCA1A90062B805 /* AirLevelDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B112F61FFCA1A90062B805 /* AirLevelDescViewController.swift */; };
+		35B112F91FFCACB90062B805 /* AirLevelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B112F81FFCACB90062B805 /* AirLevelViewCell.swift */; };
+		35B112FB1FFCC0700062B805 /* AirLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B112FA1FFCC0700062B805 /* AirLevelModel.swift */; };
+		35B112FE1FFCCE980062B805 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B112FD1FFCCE980062B805 /* ShareViewController.swift */; };
+		35B113011FFCE1BD0062B805 /* CityManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B113001FFCE1BD0062B805 /* CityManageViewController.swift */; };
+		35B113031FFCE1E10062B805 /* CityManageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B113021FFCE1E10062B805 /* CityManageFlowLayout.swift */; };
+		35B113051FFCE5920062B805 /* CityManageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B113041FFCE5920062B805 /* CityManageViewCell.swift */; };
+		35B113071FFCEDED0062B805 /* CityManageAddViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B113061FFCEDED0062B805 /* CityManageAddViewCell.swift */; };
+		35B1130A1FFCF4290062B805 /* ChooseCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B113091FFCF4290062B805 /* ChooseCityViewController.swift */; };
+		35B8CF102005AAC2003B92E9 /* PridictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8CF0F2005AAC2003B92E9 /* PridictionViewController.swift */; };
+		35BC3E211FFBD8D400F378A5 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BC3E201FFBD8D400F378A5 /* Setting.storyboard */; };
+		35C779C92001BEAC006C2A32 /* StationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C779C82001BEAC006C2A32 /* StationInfoViewController.swift */; };
+		35C779CB2001BEEC006C2A32 /* StationInfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C779CA2001BEEC006C2A32 /* StationInfoViewCell.swift */; };
+		5B4D1BAFEDA20F8BF1A8A2E2 /* Pods_NingXiaAQI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8D596E2AA447A811DA07C1 /* Pods_NingXiaAQI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3503EEE31FF4CE6F00F41605 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3503EEE51FF4CF1700F41605 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3503EEE71FF4CF5C00F41605 /* HomeCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionLayout.swift; sourceTree = "<group>"; };
+		3503EEEA1FF4E8B900F41605 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		3503EEEC1FF4EA1500F41605 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3503EEEE1FF4F1A600F41605 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		351B2ADE1FFDF12700A5F2BA /* NingXiaAQI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NingXiaAQI-Bridging-Header.h"; sourceTree = "<group>"; };
+		351B2AE21FFDF18900A5F2BA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		3533C5F91FF1243500207337 /* NingXiaAQI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NingXiaAQI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3533C5FC1FF1243500207337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3533C5FE1FF1243500207337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +68,39 @@
 		3533C6031FF1243500207337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3533C6061FF1243500207337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3533C6081FF1243500207337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3533C60E1FF1244200207337 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3533C6161FF1326E00207337 /* NewFeatureCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeatureCollectionViewController.swift; sourceTree = "<group>"; };
+		3533C6181FF1334400207337 /* NewFeatureFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeatureFlowLayout.swift; sourceTree = "<group>"; };
+		3533C61A1FF133A700207337 /* NewFeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeatureCell.swift; sourceTree = "<group>"; };
+		3533C61C1FF137A600207337 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		3533C61E1FF13ECB00207337 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3533C6211FF13FF900207337 /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		3546F5FD1FFD196C00743D7A /* CityHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityHeaderView.swift; sourceTree = "<group>"; };
+		3546F5FF1FFD2B7C00743D7A /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		356094D91FFB3A5B0015AF54 /* CityAQIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityAQIView.swift; sourceTree = "<group>"; };
+		356094DB1FFB3B500015AF54 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		356094DD1FFB6E060015AF54 /* PollutantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollutantView.swift; sourceTree = "<group>"; };
+		357A4B572000ECDB00DA572C /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		357A4B592000EFA500DA572C /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		357A4B5B2000F3D600DA572C /* AirStationData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AirStationData.plist; sourceTree = "<group>"; };
+		357A4B5D20010C3300DA572C /* UIimage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIimage+Extension.swift"; sourceTree = "<group>"; };
+		35B112F31FFC9AF30062B805 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		35B112F61FFCA1A90062B805 /* AirLevelDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirLevelDescViewController.swift; sourceTree = "<group>"; };
+		35B112F81FFCACB90062B805 /* AirLevelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirLevelViewCell.swift; sourceTree = "<group>"; };
+		35B112FA1FFCC0700062B805 /* AirLevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirLevelModel.swift; sourceTree = "<group>"; };
+		35B112FD1FFCCE980062B805 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		35B113001FFCE1BD0062B805 /* CityManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityManageViewController.swift; sourceTree = "<group>"; };
+		35B113021FFCE1E10062B805 /* CityManageFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityManageFlowLayout.swift; sourceTree = "<group>"; };
+		35B113041FFCE5920062B805 /* CityManageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityManageViewCell.swift; sourceTree = "<group>"; };
+		35B113061FFCEDED0062B805 /* CityManageAddViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityManageAddViewCell.swift; sourceTree = "<group>"; };
+		35B113091FFCF4290062B805 /* ChooseCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCityViewController.swift; sourceTree = "<group>"; };
+		35B8CF0F2005AAC2003B92E9 /* PridictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PridictionViewController.swift; sourceTree = "<group>"; };
+		35BC3E201FFBD8D400F378A5 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		35C779C82001BEAC006C2A32 /* StationInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfoViewController.swift; sourceTree = "<group>"; };
+		35C779CA2001BEEC006C2A32 /* StationInfoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfoViewCell.swift; sourceTree = "<group>"; };
+		CD8D596E2AA447A811DA07C1 /* Pods_NingXiaAQI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NingXiaAQI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD54AD338B880440A7AC42D /* Pods-NingXiaAQI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NingXiaAQI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NingXiaAQI/Pods-NingXiaAQI.debug.xcconfig"; sourceTree = "<group>"; };
+		F98C5616D4B67D84E56F4A24 /* Pods-NingXiaAQI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NingXiaAQI.release.xcconfig"; path = "Pods/Target Support Files/Pods-NingXiaAQI/Pods-NingXiaAQI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +108,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4D1BAFEDA20F8BF1A8A2E2 /* Pods_NingXiaAQI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3503EEE21FF4CE4900F41605 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				35C779C72001BE8E006C2A32 /* 站点实况 */,
+				35B112FF1FFCE1970062B805 /* 添加城市 */,
+				35BC3E1F1FFBD8AF00F378A5 /* 设置 */,
+				356094D81FFB3A360015AF54 /* Block */,
+				3503EEE31FF4CE6F00F41605 /* HomeViewController.swift */,
+				3503EEE51FF4CF1700F41605 /* HomeCollectionViewCell.swift */,
+				3503EEE71FF4CF5C00F41605 /* HomeCollectionLayout.swift */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		3503EEE91FF4E8A500F41605 /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				3503EEEA1FF4E8B900F41605 /* UILabel+Extension.swift */,
+				3503EEEC1FF4EA1500F41605 /* UIColor+Extension.swift */,
+				3503EEEE1FF4F1A600F41605 /* String+Extension.swift */,
+				356094DB1FFB3B500015AF54 /* UIView+Extension.swift */,
+				357A4B5D20010C3300DA572C /* UIimage+Extension.swift */,
+			);
+			name = "扩展";
+			sourceTree = "<group>";
+		};
+		351B2AE11FFDF15D00A5F2BA /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				351B2AE21FFDF18900A5F2BA /* MapViewController.swift */,
+				357A4B572000ECDB00DA572C /* MapAnnotation.swift */,
+				357A4B592000EFA500DA572C /* MapAnnotationView.swift */,
+				357A4B5B2000F3D600DA572C /* AirStationData.plist */,
+			);
+			path = "地图";
+			sourceTree = "<group>";
+		};
 		3533C5F01FF1243500207337 = {
 			isa = PBXGroup;
 			children = (
+				3533C60E1FF1244200207337 /* Podfile */,
 				3533C5FB1FF1243500207337 /* NingXiaAQI */,
 				3533C5FA1FF1243500207337 /* Products */,
+				BC30E085DEB6AC75A2C548BF /* Pods */,
+				6AABA8916428DFE75319745B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +174,151 @@
 		3533C5FB1FF1243500207337 /* NingXiaAQI */ = {
 			isa = PBXGroup;
 			children = (
+				35B8CF0E2005AA80003B92E9 /* 预报 */,
+				351B2AE11FFDF15D00A5F2BA /* 地图 */,
+				3503EEE91FF4E8A500F41605 /* 扩展 */,
+				3503EEE21FF4CE4900F41605 /* 首页 */,
+				3533C6201FF13FD300207337 /* 封装 */,
+				3533C6141FF1324900207337 /* 工具类 */,
+				3533C6131FF1323A00207337 /* 主页 */,
 				3533C5FC1FF1243500207337 /* AppDelegate.swift */,
 				3533C5FE1FF1243500207337 /* ViewController.swift */,
 				3533C6001FF1243500207337 /* Main.storyboard */,
 				3533C6031FF1243500207337 /* Assets.xcassets */,
 				3533C6051FF1243500207337 /* LaunchScreen.storyboard */,
 				3533C6081FF1243500207337 /* Info.plist */,
+				351B2ADE1FFDF12700A5F2BA /* NingXiaAQI-Bridging-Header.h */,
 			);
 			path = NingXiaAQI;
+			sourceTree = "<group>";
+		};
+		3533C6131FF1323A00207337 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				3533C61E1FF13ECB00207337 /* MainViewController.swift */,
+				3533C6151FF1325100207337 /* 新特性 */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		3533C6141FF1324900207337 /* 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				3533C61C1FF137A600207337 /* Tool.swift */,
+			);
+			name = "工具类";
+			sourceTree = "<group>";
+		};
+		3533C6151FF1325100207337 /* 新特性 */ = {
+			isa = PBXGroup;
+			children = (
+				3533C6161FF1326E00207337 /* NewFeatureCollectionViewController.swift */,
+				3533C6181FF1334400207337 /* NewFeatureFlowLayout.swift */,
+				3533C61A1FF133A700207337 /* NewFeatureCell.swift */,
+			);
+			name = "新特性";
+			sourceTree = "<group>";
+		};
+		3533C6201FF13FD300207337 /* 封装 */ = {
+			isa = PBXGroup;
+			children = (
+				3533C6211FF13FF900207337 /* BaseNavigationViewController.swift */,
+			);
+			name = "封装";
+			sourceTree = "<group>";
+		};
+		356094D81FFB3A360015AF54 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				356094D91FFB3A5B0015AF54 /* CityAQIView.swift */,
+				356094DD1FFB6E060015AF54 /* PollutantView.swift */,
+			);
+			name = Block;
+			sourceTree = "<group>";
+		};
+		35B112F51FFCA18B0062B805 /* 空气污染级别说明 */ = {
+			isa = PBXGroup;
+			children = (
+				35B112F61FFCA1A90062B805 /* AirLevelDescViewController.swift */,
+				35B112F81FFCACB90062B805 /* AirLevelViewCell.swift */,
+				35B112FA1FFCC0700062B805 /* AirLevelModel.swift */,
+			);
+			name = "空气污染级别说明";
+			sourceTree = "<group>";
+		};
+		35B112FC1FFCCE7F0062B805 /* 二维码分享 */ = {
+			isa = PBXGroup;
+			children = (
+				35B112FD1FFCCE980062B805 /* ShareViewController.swift */,
+			);
+			path = "二维码分享";
+			sourceTree = "<group>";
+		};
+		35B112FF1FFCE1970062B805 /* 添加城市 */ = {
+			isa = PBXGroup;
+			children = (
+				35B113081FFCF4150062B805 /* 选择城市 */,
+				35B113001FFCE1BD0062B805 /* CityManageViewController.swift */,
+				35B113021FFCE1E10062B805 /* CityManageFlowLayout.swift */,
+				35B113041FFCE5920062B805 /* CityManageViewCell.swift */,
+				35B113061FFCEDED0062B805 /* CityManageAddViewCell.swift */,
+			);
+			name = "添加城市";
+			sourceTree = "<group>";
+		};
+		35B113081FFCF4150062B805 /* 选择城市 */ = {
+			isa = PBXGroup;
+			children = (
+				35B113091FFCF4290062B805 /* ChooseCityViewController.swift */,
+				3546F5FD1FFD196C00743D7A /* CityHeaderView.swift */,
+				3546F5FF1FFD2B7C00743D7A /* CityTableViewCell.swift */,
+			);
+			path = "选择城市";
+			sourceTree = "<group>";
+		};
+		35B8CF0E2005AA80003B92E9 /* 预报 */ = {
+			isa = PBXGroup;
+			children = (
+				35B8CF0F2005AAC2003B92E9 /* PridictionViewController.swift */,
+			);
+			name = "预报";
+			sourceTree = "<group>";
+		};
+		35BC3E1F1FFBD8AF00F378A5 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				35B112FC1FFCCE7F0062B805 /* 二维码分享 */,
+				35B112F51FFCA18B0062B805 /* 空气污染级别说明 */,
+				35BC3E201FFBD8D400F378A5 /* Setting.storyboard */,
+				35B112F31FFC9AF30062B805 /* SettingViewController.swift */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		35C779C72001BE8E006C2A32 /* 站点实况 */ = {
+			isa = PBXGroup;
+			children = (
+				35C779C82001BEAC006C2A32 /* StationInfoViewController.swift */,
+				35C779CA2001BEEC006C2A32 /* StationInfoViewCell.swift */,
+			);
+			path = "站点实况";
+			sourceTree = "<group>";
+		};
+		6AABA8916428DFE75319745B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8D596E2AA447A811DA07C1 /* Pods_NingXiaAQI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC30E085DEB6AC75A2C548BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBD54AD338B880440A7AC42D /* Pods-NingXiaAQI.debug.xcconfig */,
+				F98C5616D4B67D84E56F4A24 /* Pods-NingXiaAQI.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +328,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3533C60B1FF1243500207337 /* Build configuration list for PBXNativeTarget "NingXiaAQI" */;
 			buildPhases = (
+				C31279700B742525D8528B72 /* [CP] Check Pods Manifest.lock */,
 				3533C5F51FF1243500207337 /* Sources */,
 				3533C5F61FF1243500207337 /* Frameworks */,
 				3533C5F71FF1243500207337 /* Resources */,
+				4688E2BB51E79CFCB2024C8C /* [CP] Embed Pods Frameworks */,
+				4019B7E048987CBB089EAC2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +356,7 @@
 				TargetAttributes = {
 					3533C5F81FF1243500207337 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,21 +384,121 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357A4B5C2000F3D600DA572C /* AirStationData.plist in Resources */,
 				3533C6071FF1243500207337 /* LaunchScreen.storyboard in Resources */,
 				3533C6041FF1243500207337 /* Assets.xcassets in Resources */,
+				35BC3E211FFBD8D400F378A5 /* Setting.storyboard in Resources */,
+				3533C60F1FF1244200207337 /* Podfile in Resources */,
 				3533C6021FF1243500207337 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4019B7E048987CBB089EAC2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NingXiaAQI/Pods-NingXiaAQI-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NingXiaAQI/Pods-NingXiaAQI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4688E2BB51E79CFCB2024C8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NingXiaAQI/Pods-NingXiaAQI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NingXiaAQI/Pods-NingXiaAQI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31279700B742525D8528B72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NingXiaAQI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3533C5F51FF1243500207337 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3533C61F1FF13ECB00207337 /* MainViewController.swift in Sources */,
 				3533C5FF1FF1243500207337 /* ViewController.swift in Sources */,
+				356094DC1FFB3B500015AF54 /* UIView+Extension.swift in Sources */,
+				35B112FB1FFCC0700062B805 /* AirLevelModel.swift in Sources */,
+				3533C61B1FF133A700207337 /* NewFeatureCell.swift in Sources */,
+				3533C6221FF13FF900207337 /* BaseNavigationViewController.swift in Sources */,
+				357A4B5A2000EFA500DA572C /* MapAnnotationView.swift in Sources */,
+				35B112F41FFC9AF30062B805 /* SettingViewController.swift in Sources */,
+				3533C6191FF1334400207337 /* NewFeatureFlowLayout.swift in Sources */,
+				35B8CF102005AAC2003B92E9 /* PridictionViewController.swift in Sources */,
+				3546F5FE1FFD196C00743D7A /* CityHeaderView.swift in Sources */,
+				3546F6001FFD2B7C00743D7A /* CityTableViewCell.swift in Sources */,
+				35C779C92001BEAC006C2A32 /* StationInfoViewController.swift in Sources */,
+				3503EEE61FF4CF1700F41605 /* HomeCollectionViewCell.swift in Sources */,
+				3503EEE81FF4CF5C00F41605 /* HomeCollectionLayout.swift in Sources */,
+				3503EEE41FF4CE6F00F41605 /* HomeViewController.swift in Sources */,
+				351B2AE31FFDF18900A5F2BA /* MapViewController.swift in Sources */,
+				3503EEEF1FF4F1A600F41605 /* String+Extension.swift in Sources */,
+				35B1130A1FFCF4290062B805 /* ChooseCityViewController.swift in Sources */,
+				35B113071FFCEDED0062B805 /* CityManageAddViewCell.swift in Sources */,
+				35B112FE1FFCCE980062B805 /* ShareViewController.swift in Sources */,
+				3503EEEB1FF4E8B900F41605 /* UILabel+Extension.swift in Sources */,
+				357A4B582000ECDB00DA572C /* MapAnnotation.swift in Sources */,
+				357A4B5E20010C3300DA572C /* UIimage+Extension.swift in Sources */,
+				3533C61D1FF137A600207337 /* Tool.swift in Sources */,
+				3503EEED1FF4EA1500F41605 /* UIColor+Extension.swift in Sources */,
+				356094DE1FFB6E060015AF54 /* PollutantView.swift in Sources */,
+				35C779CB2001BEEC006C2A32 /* StationInfoViewCell.swift in Sources */,
+				35B113051FFCE5920062B805 /* CityManageViewCell.swift in Sources */,
+				3533C6171FF1326E00207337 /* NewFeatureCollectionViewController.swift in Sources */,
+				35B112F91FFCACB90062B805 /* AirLevelViewCell.swift in Sources */,
 				3533C5FD1FF1243500207337 /* AppDelegate.swift in Sources */,
+				356094DA1FFB3A5B0015AF54 /* CityAQIView.swift in Sources */,
+				35B113031FFCE1E10062B805 /* CityManageFlowLayout.swift in Sources */,
+				35B112F71FFCA1A90062B805 /* AirLevelDescViewController.swift in Sources */,
+				35B113011FFCE1BD0062B805 /* CityManageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +633,18 @@
 		};
 		3533C60C1FF1243500207337 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD54AD338B880440A7AC42D /* Pods-NingXiaAQI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2D4373EV3;
 				INFOPLIST_FILE = NingXiaAQI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greentran.NingXiaAQI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NingXiaAQI/NingXiaAQI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +652,17 @@
 		};
 		3533C60D1FF1243500207337 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98C5616D4B67D84E56F4A24 /* Pods-NingXiaAQI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2D4373EV3;
 				INFOPLIST_FILE = NingXiaAQI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greentran.NingXiaAQI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NingXiaAQI/NingXiaAQI-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -12,11 +12,31 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    var _mapManager: BMKMapManager?
+ 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        if Tool.IsNewFeature(){
+            window?.rootViewController = NewFeatureCollectionViewController()
+        }else{
+            window?.rootViewController = MainViewController()
+        }
+        
+        window?.makeKeyAndVisible()
+        
+        //百度地图SDK初始化
+        _mapManager = BMKMapManager()
+        // 如果要关注网络及授权验证事件，请设定generalDelegate参数
+        let ret = _mapManager?.start("tQRkwVEHY43xm8c566gnkfjyegoPBBVl", generalDelegate: self)
+        if ret == false {
+            NSLog("manager start failed!")
+        }
         return true
+         
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -42,5 +62,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+extension AppDelegate:BMKGeneralDelegate{
+    func onGetNetworkState(_ iError: Int32) {
+        if (0 == iError) {
+            NSLog("联网成功");
+        }
+        else{
+            NSLog("联网失败，错误代码：Error\(iError)");
+        }
+    }
+    
+    func onGetPermissionState(_ iError: Int32) {
+        if (0 == iError) {
+            NSLog("授权成功");
+        }
+        else{
+            NSLog("授权失败，错误代码：Error\(iError)");
+        }
+    }
 }
 
